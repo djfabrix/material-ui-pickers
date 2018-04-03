@@ -57,7 +57,7 @@ export var getMinutes = function getMinutes(offsetX, offsetY) {
   var step = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 6;
 
   var _getAngleValue2 = getAngleValue(step, offsetX, offsetY),
-      value = _getAngleValue2.value;
+      value = _getAngleValue2.value,
       correctValue = value - (value % 15);
 
   return correctValue;
