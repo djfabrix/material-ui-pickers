@@ -52,17 +52,9 @@ var MinutesView = function (_Component) {
           value: value
         },
         React.createElement(ClockNumber, { label: f('00'), selected: value === 0, index: 12 }),
-        React.createElement(ClockNumber, { label: f('05'), selected: value === 5, index: 1 }),
-        React.createElement(ClockNumber, { label: f('10'), selected: value === 10, index: 2 }),
         React.createElement(ClockNumber, { label: f('15'), selected: value === 15, index: 3 }),
-        React.createElement(ClockNumber, { label: f('20'), selected: value === 20, index: 4 }),
-        React.createElement(ClockNumber, { label: f('25'), selected: value === 25, index: 5 }),
         React.createElement(ClockNumber, { label: f('30'), selected: value === 30, index: 6 }),
-        React.createElement(ClockNumber, { label: f('35'), selected: value === 35, index: 7 }),
-        React.createElement(ClockNumber, { label: f('40'), selected: value === 40, index: 8 }),
-        React.createElement(ClockNumber, { label: f('45'), selected: value === 45, index: 9 }),
-        React.createElement(ClockNumber, { label: f('50'), selected: value === 50, index: 10 }),
-        React.createElement(ClockNumber, { label: f('55'), selected: value === 55, index: 11 })
+        React.createElement(ClockNumber, { label: f('45'), selected: value === 45, index: 9 })
       );
     }
   }]);

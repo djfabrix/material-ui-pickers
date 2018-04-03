@@ -58,8 +58,9 @@ export var getMinutes = function getMinutes(offsetX, offsetY) {
 
   var _getAngleValue2 = getAngleValue(step, offsetX, offsetY),
       value = _getAngleValue2.value;
+      correctValue = value - (value % 15);
 
-  return value;
+  return correctValue;
 };
 
 export var convertToMeridiem = function convertToMeridiem(time, meridiem, ampm) {
